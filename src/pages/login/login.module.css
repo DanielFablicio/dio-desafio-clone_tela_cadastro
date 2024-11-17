@@ -1,0 +1,83 @@
+:root {
+    --forgot-text-color: #e5e044;
+    --create-text-color: #23dd7a;
+}
+
+/*main*/
+.loginContainer {
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 120px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*div*/
+.loginWrapper {
+    max-width: 300px;
+}
+
+/*div*/
+.loginColumn {
+    flex: 1;
+}
+
+/*div*/
+.loginRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+/**/
+/**/
+.loginTitle,
+.loginLoginTitle {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 20px;
+    line-height: 44px;
+}
+/*h2*/
+.loginTitle {
+    max-width: 90%;
+    color: var(--primary-color);
+}
+/*p*/
+.loginLoginTitle {
+    margin-bottom: 8px;
+}
+
+/*p*/
+.loginSubtitle {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 35px;
+}
+
+/*p*/
+.loginForgotText,
+.loginCreateText {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: var(--forgot-text-color);
+}
+
+/*p*/
+.loginCreateText {
+    color: var(--create-text-color);
+}

@@ -1,0 +1,83 @@
+:root {
+    --card-bckg-color: #3b4651;
+    --primary-color-transparent: #ffffff80;
+}
+
+.cardContainer {
+    width: 100%;
+    background-color: var(--card-bckg-color);
+    position: relative;
+    margin-bottom: 24px;
+}
+
+.cardImageBackground {
+    width: 100%;
+    height: 180px;
+}
+
+.cardContent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+}
+
+.cardUserInfo {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 12px;
+}
+.cardUserInfo div {
+    margin-left: 12px;
+}
+.cardUserInfo h4,
+.cardUserInfo p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: var(--primary-color);
+}
+.cardUserInfo p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.cardUserPicture {
+    width: 32px;
+    height: 32px;
+    border-radius: 22px;
+    border: 3px solid var(--primary-color);
+}
+
+.cardPostInfo {
+    margin-bottom: 12px;
+}
+.cardPostInfo h4,
+.cardPostInfo p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: var(--primary-color);
+}
+.cardPostInfo p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.cardHasInfo {
+    margin-top: 12px;
+}
+.cardHasInfo h4 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--primary-color-transparent);
+}
